@@ -4,3 +4,9 @@ font-family: 'Anton', sans-serif;
 font-family: 'Abel', sans-serif;
 
 */
+
+
+.card{
+  display: inline-block;
+  text-align: left;
+}
