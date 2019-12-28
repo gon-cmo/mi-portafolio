@@ -5,8 +5,7 @@ font-family: 'Abel', sans-serif;
 
 */
 
+body{
+  font-family: 'Abel', sans-serif;
 
-.card{
-  display: inline-block;
-  text-align: left;
 }
