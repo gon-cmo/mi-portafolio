@@ -5,7 +5,9 @@ font-family: 'Abel', sans-serif;
 
 */
 
-
+.container{
+  text-align: center;
+}
 .card{
   display: inline-block;
   text-align: left;
