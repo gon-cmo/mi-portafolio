@@ -27,65 +27,225 @@
 
 <body>
 
-  <!--CONTAINER 1-->
-<div class="container">
-  <div class="card-deck">
-  <div class="card my-3">
-    <img src="./img/cuppon.png" class="card-img-top" alt="cuppon">
-    <div class="card-body">
-      <h5 class="card-title">Cuppon</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Más info</a>
-    </div>
-  </div>
-  <div class="card my-3">
-    <img src="./img/dmark.png" class="card-img-top" alt="dmark">
-    <div class="card-body">
-      <h5 class="card-title">Dmark</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Más info</a>
-    </div>
-  </div>
-  <div class="card my-3">
-    <img src="./img/iguana_page.png" class="card-img-top" alt="iguana_page">
-    <div class="card-body">
-      <h5 class="card-title">Iguana Page</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Más info</a>
-    </div>
-  </div>
-</div>
-</div>
-
-  <!--CONTAINER 2-->
+  <!--CAROUSEL (EXPERTOS EN:)-->
   <div class="container">
-  <div class="card-deck">
-    <div class="card my-3">
-      <img src="./img/meet_coffee.png" class="card-img-top" alt="meet_coffee">
-      <div class="card-body">
-        <h5 class="card-title">Meet Coffee</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Más info</a>
-      </div>
-    </div>
-    <div class="card my-3">
-      <img src="./img/ricomida.png" class="card-img-top" alt="ricomida">
-      <div class="card-body">
-        <h5 class="card-title">Ricomida</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Más info</a>
-      </div>
-    </div>
-    <div class="card my-3">
-      <img src="./img/suricata.png" class="card-img-top" alt="suricata">
-      <div class="card-body">
-        <h5 class="card-title">Suricata</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Más info</a>
+    <h2>Expertos en:</h2>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/carousel1.png" class="d-block w-100" alt="Bootstrap">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel2.png" class="d-block w-100" alt="CSS">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carousel3.png" class="d-block w-100" alt="GitHub Pages">
+        </div>
       </div>
     </div>
   </div>
+
+  <!--ÚLTIMOS TRABAJOS-->
+  <div class="container">
+    <h2>Últimos trabajos</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img src="./img/cuppon.png" class="card-img-top" alt="cuppon">
+        <div class="card-body">
+          <h5 class="card-title">Cuppon</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <!--Modal Button-->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuppon">
+            Más info
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/dmark.png" class="card-img-top" alt="dmark">
+        <div class="card-body">
+          <h5 class="card-title">Dmark</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <!--Modal Button-->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dmark">
+            Más info
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/iguana_page.png" class="card-img-top" alt="iguana_page">
+        <div class="card-body">
+          <h5 class="card-title">Iguana Page</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <!--Modal Button-->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iguana">
+            Más info
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <img src="./img/meet_coffee.png" class="card-img-top" alt="meet_coffee">
+        <div class="card-body">
+          <h5 class="card-title">Meet Coffee</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <!--Modal Button-->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meet">
+            Más info
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/ricomida.png" class="card-img-top" alt="ricomida">
+        <div class="card-body">
+          <h5 class="card-title">Ricomida</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <!--Modal Button-->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ricomida">
+            Más info
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/suricata.png" class="card-img-top" alt="suricata">
+        <div class="card-body">
+          <h5 class="card-title">Suricata</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <!--Modal Button-->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suricata">
+            Más info
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL CUPPON -->
+  <div class="modal fade" id="cuppon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cuppon</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img class="w-75" src="./img/cuppon.png" alt="cuppon">
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DMARK -->
+  <div class="modal fade" id="dmark" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Dmark</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img class="w-75" src="./img/dmark.png" alt="dmark">
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL IGUANA PAGE -->
+  <div class="modal fade" id="iguana" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img class="w-75" src="./img/iguana_page.png" alt="iguana">
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL MEET COFFEE -->
+  <div class="modal fade" id="meet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Meet Coffee</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img class="w-75" src="./img/meet_coffee.png" alt="meet">
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL RICOMIDA -->
+  <div class="modal fade" id="ricomida" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ricomida</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img class="w-75" src="./img/ricomida.png" alt="ricomida">
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL SURICATA -->
+  <div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Suricata</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img class="w-75" src="./img/suricata.png" alt="suricata">
+          <br><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>h1</footer>
+
 </body>
 
 </html>
