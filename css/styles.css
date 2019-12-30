@@ -6,24 +6,51 @@ font-family: 'Abel', sans-serif;
 */
 
 body{
-  font-family: 'Abel', sans-serif;
+  font-family: 'ruda', sans-serif;
+}
+
+h1{
+  padding-top: 220px;
+}
+
+h2{
+  text-align: center;
 }
 
 nav{
   background-color: #760C8C;
 }
 
-.jumbotron{
-  height: 500px;
+.navbar-brand{
+  font-family: passionOne;
+  font-weight: 900;
 }
 
-#sobre-mi h5,p{
-  text-align: justify;
+.jumbotron{
+  background-image: url('../img/bg_hero.png');
+  height: 500px;
+  color: #ffffff;
+  font-size: 7em;
+}
 
+#sobre-mi p{
+  text-align: justify;
 }
 
 #carousel{
-  padding: 20px;
+  text-align: center;
+}
+
+#mi-experiencia i{
+  color: #760C8C;
+}
+
+.container{
+  text-align: center;
+}
+
+.exper{
+  display: inline-block;
 }
 
 #mi-experiencia i{
@@ -50,4 +77,13 @@ footer{
   height: 150px;
   background-color: #760C8C;
   color: #ffffff;
+}
+
+footer{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  height: 120px;
+  background-color: #760C8C;
+  color: #ffffff;
+
 }
