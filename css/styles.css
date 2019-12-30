@@ -9,10 +9,45 @@ body{
   font-family: 'Abel', sans-serif;
 }
 
+nav{
+  background-color: #760C8C;
+}
+
+.jumbotron{
+  height: 500px;
+}
+
+#sobre-mi h5,p{
+  text-align: justify;
+
+}
+
+#carousel{
+  padding: 20px;
+}
+
+#mi-experiencia i{
+  color: #760C8C;
+}
+
+#trabajos{
+  background-color: #760C8C;
+}
+
+#trabajos h2{
+  color: #ffffff;
+}
+
 .container{
   text-align: center;
 }
 .card{
   display: inline-block;
-  text-align: left;
+  text-align: center;
+}
+
+footer{
+  height: 150px;
+  background-color: #760C8C;
+  color: #ffffff;
 }
