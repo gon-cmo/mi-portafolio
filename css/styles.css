@@ -1,29 +1,30 @@
-/*
-
-font-family: 'Anton', sans-serif;
-font-family: 'Abel', sans-serif;
-
-*/
-
 body{
   font-family: 'ruda', sans-serif;
+  background-color: #DEDEDE;
+  color: #000000;
 }
 
 h1{
-  padding-top: 220px;
+  padding-top: 25px;
+  text-align: center;
 }
 
 h2{
   text-align: center;
 }
 
+a{
+  color: #ffffff;
+}
+
 nav{
-  background-color: #760C8C;
+  background-color: #222022 ;
 }
 
 .navbar-brand{
   font-family: passionOne;
   font-weight: 900;
+  font-size: 40px;
 }
 
 .jumbotron{
@@ -31,6 +32,7 @@ nav{
   height: 500px;
   color: #ffffff;
   font-size: 7em;
+  text-decoration: underline;
 }
 
 #sobre-mi p{
@@ -42,8 +44,14 @@ nav{
 }
 
 #mi-experiencia i{
-  color: #760C8C;
+  color: #222022 ;
 }
+
+.container-cards{
+  padding: 50px;
+  background-color: #1F1E20;
+}
+
 
 .container{
   text-align: center;
@@ -62,7 +70,7 @@ footer{
   padding-top: 15px;
   padding-bottom: 5px;
   height: 120px;
-  background-color: #760C8C;
+  background-color: #222022 ;
   color: #ffffff;
 
 }
