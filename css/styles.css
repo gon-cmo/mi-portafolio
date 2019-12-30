@@ -7,13 +7,47 @@ font-family: 'Abel', sans-serif;
 
 body{
   font-family: 'Abel', sans-serif;
+}
+
+nav{
+  background-color: #760C8C;
+}
+
+.jumbotron{
+  height: 500px;
+}
+
+#sobre-mi h5,p{
+  text-align: justify;
 
 }
 
-h1,h2{
+#carousel{
+  padding: 20px;
+}
+
+#mi-experiencia i{
+  color: #760C8C;
+}
+
+#trabajos{
+  background-color: #760C8C;
+}
+
+#trabajos h2{
+  color: #white;
+}
+
+.container{
+  text-align: center;
+}
+.card{
+  display: inline-block;
   text-align: center;
 }
 
-p{
-  text-align: justify;
+footer{
+  height: 150px;
+  background-color: #760C8C;
+  color: #ffffff;
 }
