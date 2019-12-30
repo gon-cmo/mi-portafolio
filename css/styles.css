@@ -53,30 +53,9 @@ nav{
   display: inline-block;
 }
 
-#mi-experiencia i{
-  color: #760C8C;
-}
-
-#trabajos{
-  background-color: #760C8C;
-}
-
-#trabajos h2{
-  color: #ffffff;
-}
-
-.container{
-  text-align: center;
-}
 .card{
   display: inline-block;
-  text-align: center;
-}
-
-footer{
-  height: 150px;
-  background-color: #760C8C;
-  color: #ffffff;
+  text-align: left;
 }
 
 footer{
